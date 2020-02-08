@@ -1,5 +1,44 @@
 import React from "react";
 
+import "./homepage.styles.scss";
+
 const HomePage = () => {
-  <div></div>;
+  return (
+    <div className="homepage">
+      <div className="directory-menu">
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">TOPS</h1>
+            <span className="subtitle">SHOP NOW</span>
+          </div>
+        </div>
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">BOTTOMS</h1>
+            <span className="subtitle">SHOP NOW</span>
+          </div>
+        </div>
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">ACCESSERIES</h1>
+            <span className="subtitle">SHOP NOW</span>
+          </div>
+        </div>
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">WOMENS</h1>
+            <span className="subtitle">SHOP NOW</span>
+          </div>
+        </div>
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">MENS</h1>
+            <span className="subtitle">SHOP NOW</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
+
+export default HomePage;
