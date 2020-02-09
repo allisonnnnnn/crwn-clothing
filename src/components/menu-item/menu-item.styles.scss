@@ -19,6 +19,11 @@
   // &:last-child {
   //   // margin-left: 7.5px;
   // }
+
+  .background-image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .content {
@@ -29,6 +34,9 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
 }
 
 .title {
